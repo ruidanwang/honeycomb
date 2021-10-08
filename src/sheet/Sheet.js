@@ -21,9 +21,9 @@ class Sheet extends React.Component {
             margin: '0px',
             padding: '0px',
             position: 'absolute',
-            width: '100%',
+            width: '89%',
             height: '100%',
-            left: '0px',
+            left: '10%',
             top: '35px'
         }
         return (
