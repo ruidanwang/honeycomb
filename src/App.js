@@ -1,6 +1,6 @@
 import './App.css';
 import ShareSheet from './sheet/ShareSheet';
-// import SheetTools from './sheet/SheetTools';
+import BITables from './bi/BITables';
 
 import {
   BrowserRouter as Router,
@@ -14,18 +14,18 @@ const routes = [
   {
     path: "/",
     exact: true,
-    sidebar: () => <div>home!</div>,
+    sidebar: () => <div></div>,
     main: () => <h2>home</h2>
   },
   {
     path: "/sheet",
-    sidebar: () => <div>Sheet</div>,
+    sidebar: () => <div></div>,
     main: () => <div><ShareSheet/></div>
   },
   {
     path: "/tables",
-    sidebar: () => <div>shoelaces!</div>,
-
+    sidebar: () => <div></div>,
+    main: () => <div><BITables/></div>
   }
 ];
 
